@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding:0;
+    color:white;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* body{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+    background-size: cover;
+} */
+.nav-container{
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+   position: fixed;
+
+}
+
+.name{
+    display: flex;
+    align-items: center;
+   
+    width: 30%;
+    font-size: 2.5rem;
+    font-family:fantasy;
+    /* background-color: green; */
+    padding-left: 20px;
+    cursor:pointer;
+    
+}
+.elements{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80%;
+    width:50%;
+    /* background-color: yellow; */
+    font-size: 1rem;
+    cursor:pointer;
+    text-decoration: solid;
+    margin-right: 50px;
+
+   
+}
+.element{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100px;
+    transition: ease-in-out 0.3s;
+    text-decoration: none;
+    /* background-color: pink;
+     */
+    
+}
+.element:hover{
+    transform: translateY(-4px);
+}
+
+#body-container{
+    padding-top: 50px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height : 585px;
+    /* background-color:rgb(7, 59, 7);  */
+    background-color: white;
+}
+.text{
+   
+    width: 500px;
+    font-size: 2rem;
+    /* background-color: pink; */
+}
+.photo{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-image: url(https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTExL2Rlc2lnbndpdGhtZTA5X2FfY3V0ZV8zZF9oYXBweV9pbmRpYW5fYm95X2lzb2xhdGVkX29uX2Ffd2hpdGVfYl8zN2RkYzgzMS0wYzQwLTQ1ZjAtYjAzMC0yODE0MDExNDFjM2QucG5n.png);
+    background-size: cover; 
+}
+.h2{
+    display: flex;
+    gap: 10px;
+}
+h2{
+   
+    margin-top: 10px;
+}
+h3{
+    margin-top: 8px;
+}
+.Aboutme{
+    
+    margin-top: 20px;
+    margin-left: 2px;
+   padding: 8px;
+   font-size: 1rem;
+   padding-left: 20px;
+   padding-right:20px;
+   background-color: rgb(3, 3, 77);
+   border:none;
+   border-radius: 50px;
+   align-self: center;
+   box-shadow: 4px 4px 4px black;
+   text-decoration: none;
+   cursor: pointer;
+}
+.Aboutme b{
+    color:orange;
+}
+
+.links{
+  display:flex;
+ 
+  align-items: center;
+  height: 50px;
+  width:100%;
+  
+  margin-top: 20px;
+}
+
+.logos{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-size:cover;
+    margin-right: 15px;
+    background-color: white;
+}
+img{
+    
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-size:cover;
+  
+}
+
+#About-me2{
+    margin: auto;
+    height:600px;
+  
+    width:90%;
+   /* background-color: antiquewhite; */
+   border-radius: 20px;
+
+}
+
+#About-me2 h1{
+  
+    padding-top: 50px;
+    font-size: 2rem;
+    text-align: center;
+    color:black;
+}
+
+.About-me2-body{
+    height: 70vh;
+    width:100%;
+   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.About-me2-img{
+    height: 400px;
+    width:400px;
+    /* background-image: url(https://png.pngtree.com/png-vector/20230831/ourmid/pngtree-3d-young-businessman-pointing-to-fingers-to-right-side-illustration-png-image_9192920.png); */
+   background-image: url(https://img.freepik.com/free-vector/freelancer-concept-illustration_114360-7590.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1721606400&semt=ais_user);
+    background-size: cover;
+    /* background-color: yellow; */
+    border-radius: 20px;
+   border: 2px solid black;
+}
+.About-me2-content{
+   
+    height: 100%;
+    width:60%;
+    margin-left: 10px;
+    padding-left: 10px;
+ 
+}
+.content2{
+    height:60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.boxes{
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+   
+    border: 2px solid black;
+}
+i{
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.75rem;
+    color: black;
+}
+.boxes p{
+    height:10px;
+    
+    color:grey;
+}
+#boxesp B{
+    
+    color: black;
+}
+#About-me2 p{
+    color: black;
+   
+   width:95%;
+ 
+    /* background-color: green; */
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+   line-height: 1.3em;
+   font-weight:500;
+   border-radius: 20px;
+   padding:10px;
+}
+
+#skilled{
+    margin: auto;
+    margin-top: 40px;
+    height:95vh;
+    width:90%;
+    /* background-color: beige; */
+    /* background-color: #1e3d59; */
+    text-align: center;
+    border-radius: 20px;
+  
+}
+.languages{
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+    height:80%;
+    width:90%;
+    margin: auto;
+    /* background-color: aqua; */
+    overflow:auto;
+    scroll-behavior: smooth;
+   
+}
+::-webkit-scrollbar{
+    display:none;
+}
+#skilled p{
+    padding:5px;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: grey;
+    word-spacing: 1px;
+}
+#skilled h1{
+    color:black;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+.scroll{
+    display:flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.laguage-logo{
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    background-color: green;
+    margin-bottom: 10px;
+    
+}
+img{
+    height:100%;
+    width:100%;
+    background-size: cover;
+}
+.language{
+   
+    height:10px;
+    width:70%;
+    background-color: white;
+    border:2px solid black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.html{
+    height:100%;
+    width: 95%;
+    background-color: #e52165;
+    border-radius: 50px;
+}
+.css{
+    height:100%;
+    width: 85%;
+    background-color: #d72631;
+    border-radius: 50px;
+}
+.js{
+    height:100%;
+    width: 70%;
+    background-color: #a2d5c6;
+    border-radius: 50px;
+}
+.cpp{
+    height:100%;
+    width: 65%;
+    background-color: #077b8a;
+    border-radius: 50px;
+}
+.java{
+    height:100%;
+    width: 65%;
+    background-color: #5c3c92;
+    border-radius: 50px;
+}
+#contacted{
+    height:90vh;
+    width: 90%;
+    margin: auto;
+    /* background-color: #e52165; */
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#contacted p{
+    padding:5px;
+    font-size: 1rem;
+   
+    color: grey;
+    word-spacing: 2px;
+    padding-top: 180px;
+}
+#contacted h1{
+    
+    color:black;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    font-weight: 900;
+  
+}
+
+.email{
+    display:flex;
+    
+    align-items: center;
+    margin: auto;
+    height: 80px;
+    width: 400px;
+    border:2px solid black;
+    border-radius: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+   
+}
+.email-logo{
+    padding-left: 80px;
+    padding-right: 10px;
+    
+}
+#contacted h3{
+    color:black;
+}
+
+.contacted-photo{
+    height:150px;
+    width : 80%;
+    margin: auto;
+    margin-top: 50px;
+
+}
